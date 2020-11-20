@@ -1,0 +1,9 @@
+
+name: usp_agent
+
+dependencies:
+  protobuf: ^1.1.0
+  web_socket_channel: ^1.1.0
+  coap: ^2.0.0
+  stomp_dart_client: ^0.3.7
+  

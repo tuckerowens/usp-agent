@@ -1,0 +1,64 @@
+
+//Auto-generated class Radio 
+import 'package:datamodel/Device/WiFi.dart';
+import 'package:datamodel/Device/WiFi/Radio/Stats.dart';
+class Radio {
+	String enable;
+	String status;
+	String alias;
+	String name;
+	String lastChange;
+	String lowerLayers;
+	String upstream;
+	String maxBitRate;
+	String supportedFrequencyBands;
+	String operatingFrequencyBand;
+	String supportedStandards;
+	String operatingStandards;
+	String possibleChannels;
+	String channelsInUse;
+	String channel;
+	String autoChannelSupported;
+	String autoChannelEnable;
+	String autoChannelRefreshPeriod;
+	String channelLastChange;
+	String channelLastSelectionReason;
+	String maxSupportedSSIDs;
+	String maxSupportedAssociations;
+	String firmwareVersion;
+	String supportedOperatingChannelBandwidths;
+	String operatingChannelBandwidth;
+	String currentOperatingChannelBandwidth;
+	String extensionChannel;
+	String guardInterval;
+	String centerFrequencySegement0;
+	String centerFrequencySegement1;
+	String centerFrequencySegment0;
+	String centerFrequencySegment1;
+	String mcs;
+	String transmitPowerSupported;
+	String transmitPower;
+	String iEEE80211hSupported;
+	String iEEE80211hEnabled;
+	String regulatoryDomain;
+	String retryLimit;
+	String cCARequest;
+	String cCAReport;
+	String rPIHistogramRequest;
+	String rPIHistogramReport;
+	String fragmentationThreshold;
+	String rTSThreshold;
+	String longRetryLimit;
+	String beaconPeriod;
+	String dTIMPeriod;
+	String packetAggregationEnable;
+	String preambleType;
+	String basicDataTransmitRates;
+	String operationalDataTransmitRates;
+	String supportedDataTransmitRates;
+	String enableRRM;
+	String fullPath = 'Device.WiFi.Radio.{i}.';
+
+WiFi parent;
+	Stats stats;
+}

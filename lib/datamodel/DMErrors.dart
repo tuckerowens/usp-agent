@@ -1,0 +1,7 @@
+
+
+
+enum DMError {
+  DoesntExist,
+  NoError
+}
